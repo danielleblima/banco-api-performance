@@ -20,8 +20,6 @@ export default function () {
 
     const url = 'http://localhost:3000/login';
     
-    console.log(postLogin);
-
     const payload = JSON.stringify(postLogin);
 
     const params = {
